@@ -1,0 +1,27 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {{ style('style') }}
+
+    @!section('extracss')
+    <title>
+        @!section('title')
+    </title>
+</head>
+<body>
+    <header>
+        <a href="/" id="Logo">Trampo<span class="logo-destaque">MA</span></a>
+        <ul>
+            <li><a href="/">Empregos</a></li>
+            <li><a href="/entrar">Entrar</a></li>
+            <li><a href="/registrar">Registrar</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        @!section('content')
+    </div>
+</body>
+</html>

@@ -19,5 +19,3 @@ new Ignitor(require('@adonisjs/fold'))
   .appRoot(__dirname)
   .fireAce()
   .catch(console.error)
-
-#!/usr/bin/env node --harmony_proxies
